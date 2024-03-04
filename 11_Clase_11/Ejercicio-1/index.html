@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/JavaScript/11_Clase_11/Ejercicio-1/Img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Astro-loca</title>
+</head>
+<body>
+    <div class="div-body">
+        <header class="div-header">
+            <h1>Bienvenido a la web de tu Astró-loco!</h1>
+        </header>
+
+        <section class="cont-section">
+
+            <div id="div-titulo">
+                <P>En el horóscopo de hoy, lunes 4 de marzo, Ceres, el asteroide relacionado con las relaciones familiares, amorosas y el afecto pasa al signo Acuario. Con esta influencia astral, intensificarás los lazos sentimentales y el amor fraterno.</P>
+            </div>
+
+            <div id="div-input">
+
+                <!-- OPCIÓN 1: ESCRIBIENDO EL INPUT -->
+
+                <!-- <p>Indica tu signo, para más detalles...</p>
+                <input type="text" id="signo-zodiaco" required>
+                <input type="button" value="Enviar" onclick="horoscopo()">
+                <hr> -->
+
+                <!-- OPCIÓN 2: UN BOTÓN POR SIGNO (Me gusta más) -->
+                <p>Haz click en tu signo para ver más detalles del horóscopo de hoy...</p>
+                <input type="button" value="Aries" onclick="horoscopo(1)">
+                <input type="button" value="Tauro" onclick="horoscopo(2)">
+                <input type="button" value="Géminis" onclick="horoscopo(3)">
+                <input type="button" value="Cáncer" onclick="horoscopo(4)">
+                <input type="button" value="Leo" onclick="horoscopo(5)">
+                <input type="button" value="Virgo" onclick="horoscopo(6)">
+                <input type="button" value="Libra" onclick="horoscopo(7)">
+                <input type="button" value="Escorpio" onclick="horoscopo(8)">
+                <input type="button" value="Sagitario" onclick="horoscopo(9)">
+                <input type="button" value="Capricornio" onclick="horoscopo(10)">
+                <input type="button" value="Acuario" onclick="horoscopo(11)">
+                <input type="button" value="Piscis" onclick="horoscopo(12)">
+            </div>
+
+            <div class="div-resultado">
+                <div class="div-imagen-func" id="img-resultado"></div>
+                <div class="div-function" id="resultado"></div>
+            </div>
+
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

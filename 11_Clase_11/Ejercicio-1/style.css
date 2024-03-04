@@ -1,0 +1,67 @@
+body {
+    background-image: url(/JavaScript/11_Clase_11/Ejercicio-1/Img/galaxy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-body {
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.div-header {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px yellow;
+    font-size: 30px;
+}
+
+.cont-section {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px yellow;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: rgb(244, 190, 14);
+    border-width: 5px;
+    border-style: outset;
+    font-size: larger;
+    color: purple;
+}
+
+input:hover {
+    background-color: black;
+    border-radius: 10px;
+    border-color: rgb(244, 190, 14);
+    border-width: 5px;
+    border-style: inset;
+    font-size: larger;
+    color: rgb(255, 255, 0);
+}
+
+.div-resultado {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    font-size: medium;
+    color: rgb(155, 207, 252);
+    text-shadow: 2px 2px 7px black;
+    font-size: larger;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    margin: 5px;
+}
+
+.div-function {
+    text-align: justify;
+    margin: 10px;
+}
